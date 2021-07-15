@@ -3,6 +3,27 @@
     padding:0;
 }
 
-.cosmobg{
-    
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.logo{
+    background-color: purple;
+    font-size: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.item{
+    order: 1;
+    font-size: 20px;
+    display: flex;
+    padding: 8px;
+    color: black;
 }
