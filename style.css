@@ -16,11 +16,13 @@ body{
 .topcontainer, .middlecontainer, .bottomcontainer{
     display:flex;
     flex-flow: row wrap;
+    margin: 20px;
 }
 
 .innerbox{
     min-height: 33.33vh; border: 5px solid black;
     flex-grow: 1; flex-shrink:0;
+    margin: 20px;
 }
 
 
