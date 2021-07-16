@@ -7,11 +7,9 @@ main{
     color: white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
 body{
     text-align: center;
-    font-family: "lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     background: url("images/cosmo.jpeg");
 }
 
@@ -19,11 +17,13 @@ body{
     display:flex;
     flex-flow: row wrap;
     margin: 20px;
-}
+    }
 
 .innerbox{
-    min-height: 33.33vh; border: 5px solid black;
-    flex-grow: 1; flex-shrink:0;
+    min-height: 33.33vh; 
+    border: 5px solid black;
+    flex-grow: 1; 
+    flex-shrink:0;
     margin: 20px;
 }
 
@@ -33,7 +33,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo{
@@ -52,22 +51,39 @@ body{
     color: white;
 }
 
-img {
+img{
     width: 50px;
     height: auto;
   }
 
 .cover{
-    width: 800px;
+    width: 400px;
     height: auto;
 }
 
-#contactme{
+#contact-me{
     background-color: silver;
+    opacity: 0.5;
 }
 
 ul li a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+}
+
+#about-me{
+    height: 50vh;
+    box-sizing: border-box;
+    background-color: silver;
+    opacity: 0.5;
+    padding-top: 30px;
+}
+
+#my-course{
+    height: 50vh;
+    box-sizing: border-box;
+    background-color: silver;
+    opacity: 0.5;
+    padding-top: 30px;
 }
