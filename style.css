@@ -1,5 +1,9 @@
 main{
-    color: white;
+    color: cornsilk;
+}
+
+header{
+    font-family: "lato";
 }
 
 body{
@@ -10,7 +14,6 @@ body{
 
 .topcontainer, .middlecontainer, .bottomcontainer{
         display:flex;
-        flex-flow: row wrap;
         margin: 20px;
         }
     
@@ -24,11 +27,11 @@ body{
 
 div{
     display: flex;
-    border: 2px solid black;
-    text-decoration: none;
+    border: 1px solid black;
     font-size: 20px;
     flex-direction: row;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -44,44 +47,44 @@ div{
     background-color: purple;
     font-size: 20px;
     padding: 8px;
-    color: white;
+    color: cornsilk;
 }
 
-.item{
-    order: 1;
+.item a{
     font-size: 20px;
     display: flex;
     padding: 8px;
-    color: white;
+    color: cornsilk;
+    text-decoration: none;
 }
 
-img{
-    width: 50px;
-    height: auto;
-  }
 
-.cover{
-    width: 400px;
-    height: auto;
+img{
+     width: 10%;
+     height: auto;
+}
+
+@media screen and (max-width:1400px) {
+    .cover{
+        width: 100%;
+        height: auto;
+    }
 }
 
 #contact-me{
-    background-color: silver;
-    opacity: 0.5;
+    background: rgba(192, 192, 192, 0.5);
 }
 
 #about-me{
     height: 50vh;
     box-sizing: border-box;
-    background-color: silver;
-    opacity: 0.5;
+    background: rgba(192, 192, 192, 0.5);
     padding-top: 30px;
 }
 
 #my-course{
     height: 50vh;
     box-sizing: border-box;
-    background-color: silver;
-    opacity: 0.5;
+    background: rgba(192, 192, 192, 0.5);
     padding-top: 30px;
 }
