@@ -1,8 +1,3 @@
-*{
-    margin:0;
-    padding:0;
-}
-
 main{
     color: white;
 }
@@ -14,25 +9,35 @@ body{
 }
 
 .topcontainer, .middlecontainer, .bottomcontainer{
-    display:flex;
-    flex-flow: row wrap;
-    margin: 20px;
-    }
-
+        display:flex;
+        flex-flow: row wrap;
+        margin: 20px;
+        }
+    
 .innerbox{
-    min-height: 33.33vh; 
-    border: 5px solid black;
-    flex-grow: 1; 
-    flex-shrink:0;
-    margin: 20px;
+        min-height: 33.33vh; 
+        border: 5px solid black;
+        flex-grow: 1; 
+        flex-shrink:0;
+        margin: 20px;
 }
 
-
-.menu {
+div{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 900px) {
+
+    div{
+        flex-direction: column;
+        max-width: 800px;
+        max-height: 600px;
+    }
 }
 
 .logo{
@@ -40,7 +45,6 @@ body{
     font-size: 20px;
     padding: 8px;
     color: white;
-    order: 1;
 }
 
 .item{
@@ -64,12 +68,6 @@ img{
 #contact-me{
     background-color: silver;
     opacity: 0.5;
-}
-
-ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
 }
 
 #about-me{
