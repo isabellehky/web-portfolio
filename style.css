@@ -25,6 +25,11 @@ body{
         margin: 20px;
 }
 
+.innerbox:hover{
+    color: #255784;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
 div{
     display: flex;
     border: 1px solid black;
@@ -63,24 +68,19 @@ a:hover{
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
-
 .icon{
-     max-width: 50px;
-     height: auto;
+    max-width: 50px;
+    height:auto;
+    background: silver;
+    border-radius: 50px;
 }
+
 
 @media screen and (max-width:900px) {
     .cover{
         width: 100%;
         height: auto;
     }
-}
-
-#contact-me{
-    background: rgba(192, 192, 192, 0.5);
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 #about-me{
@@ -97,6 +97,13 @@ a:hover{
     padding-top: 30px;
 }
 
+#contact-me {
+    background: rgba(192, 192, 192, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 h2 {
-    text-shadow: 0 0 20px #ff005b;
+    text-shadow: 0 0 20px purple;
 }
