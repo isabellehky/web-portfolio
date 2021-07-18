@@ -91,3 +91,7 @@ div{
     background: rgba(192, 192, 192, 0.5);
     padding-top: 30px;
 }
+
+.neon{
+    text-shadow: 0 0 20px #ff005b;
+}
