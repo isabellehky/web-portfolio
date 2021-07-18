@@ -3,19 +3,19 @@ main{
 }
 
 header{
-    font-family: "lato";
+    font-family: "Strait";
 }
 
 body{
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Strait', sans-serif;
     background: url("images/cosmo.jpeg");
 }
 
 .topcontainer, .middlecontainer, .bottomcontainer{
         display:flex;
         margin: 20px;
-        }
+}
     
 .innerbox{
         min-height: 33.33vh; 
@@ -28,7 +28,7 @@ body{
 div{
     display: flex;
     border: 1px solid black;
-    font-size: 20px;
+    font-size: 40px;
     flex-direction: row;
     justify-content: space-evenly;
     text-decoration: none;
@@ -56,6 +56,11 @@ div{
     padding: 8px;
     color: cornsilk;
     text-decoration: none;
+}
+
+a:hover{
+    color: #255784;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 
@@ -92,6 +97,6 @@ div{
     padding-top: 30px;
 }
 
-.neon{
+h2 {
     text-shadow: 0 0 20px #ff005b;
 }
