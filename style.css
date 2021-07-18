@@ -1,5 +1,6 @@
 main{
     color: cornsilk;
+    font-size: 20px;
 }
 
 header{
@@ -85,16 +86,14 @@ a:hover{
 
 #about-me{
     height: 50vh;
-    box-sizing: border-box;
     background: rgba(192, 192, 192, 0.5);
-    padding-top: 30px;
+    padding: 30px;
 }
 
 #my-course{
     height: 50vh;
-    box-sizing: border-box;
     background: rgba(192, 192, 192, 0.5);
-    padding-top: 30px;
+    padding: 30px;
 }
 
 #contact-me {
@@ -106,4 +105,5 @@ a:hover{
 
 h2 {
     text-shadow: 0 0 20px purple;
+    font-size: 40px;
 }
