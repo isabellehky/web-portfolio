@@ -107,3 +107,11 @@ h2 {
     text-shadow: 0 0 20px purple;
     font-size: 40px;
 }
+
+ol.rocket {
+    list-style-image: url("/images/rocket.png");
+    }
+
+ol {
+    list-style-type: lower-greek;
+}
