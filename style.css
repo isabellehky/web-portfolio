@@ -30,6 +30,10 @@ body{
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
+.tableau{
+    background-image: url("images/tableaudemo.png");
+}
+
 div{
     display: flex;
     border: 1px solid black;
