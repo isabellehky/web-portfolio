@@ -34,6 +34,10 @@ body{
     background-image: url("images/tableaudemo.png");
 }
 
+.tableau a{
+    text-decoration: none;
+}
+
 div{
     display: flex;
     border: 1px solid black;
