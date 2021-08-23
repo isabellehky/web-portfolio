@@ -1,6 +1,7 @@
 main{
     color: cornsilk;
     font-size: 20px;
+    overflow: auto;
 }
 
 header{
@@ -13,10 +14,14 @@ body{
     background: url("images/cosmo.jpeg");
 }
 
+footer{
+    position: relative;
+}
+
 .grid-container{
+    min-height: 100%;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: auto;
     grid-gap: 20px;
     justify-content: center;
 }
@@ -120,7 +125,7 @@ h2 {
 
 ol.rocket {
     list-style-image: url("/images/rocket.png");
-    }
+}
 
 ol {
     list-style-type: lower-greek;
