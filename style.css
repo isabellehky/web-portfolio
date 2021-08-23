@@ -34,9 +34,15 @@ body{
     background-image: url("images/tableaudemo.png");
 }
 
-.tableau a{
+.business{
+    background-image: url("images/business.png");
+}
+
+.tableau .business a{
     text-decoration: none;
 }
+
+
 
 div{
     display: flex;
