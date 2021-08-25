@@ -1,16 +1,16 @@
+.main .header .body{
+    font-family: "Strait";
+}
+
 main{
     color: cornsilk;
     font-size: 20px;
     overflow: auto;
 }
 
-header{
-    font-family: "Strait";
-}
-
 body{
     text-align: center;
-    font-family: 'Strait', sans-serif;
+    font-family: 'Strait';
     background: url("images/cosmo.jpeg");
 }
 
