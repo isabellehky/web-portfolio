@@ -33,6 +33,10 @@ footer{
     border: 2px solid black;
 }
 
+.grid-item-2{
+    background-image: url("images/createsprint.png");
+}
+
 .grid-item-5{
     background-image: url("images/tableaudemo.png");
 }
