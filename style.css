@@ -43,8 +43,12 @@ footer{
     background-image: url("images/createsprint.png");
 }
 
+.grid-item-3{
+    background-image: url("images/testing.png");
+}
+
 .grid-item-4{
-    background-image: url("images/firebase.png");
+    background-image: url("images/sql.png");
 }
 
 .grid-item-5{
