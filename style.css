@@ -21,7 +21,7 @@ footer{
 .grid-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 70px 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
     grid-gap: 20px;
     justify-content: center;
 }
@@ -35,12 +35,16 @@ footer{
     text-decoration: none;
 }
 
-.grid-item{
-    border: 2px solid black;
+.grid-item-1{
+    background-image: url("images/git.png");
 }
 
 .grid-item-2{
     background-image: url("images/createsprint.png");
+}
+
+.grid-item-4{
+    background-image: url("images/firebase.png");
 }
 
 .grid-item-5{
@@ -76,7 +80,7 @@ div{
 
 .resize{
     max-width: 100px;
-    max-height: 100px;
+    max-height: 80px;
 }
 
 .logo{
