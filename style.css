@@ -147,6 +147,6 @@ h2 {
     font-size: 40px;
 }
 
-ol.rocket {
+li {
     list-style-image: url("/images/rocket.png");
 }
