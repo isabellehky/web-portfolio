@@ -150,7 +150,3 @@ h2 {
 ol.rocket {
     list-style-image: url("/images/rocket.png");
 }
-
-ol {
-    list-style-type: lower-greek;
-}
