@@ -147,6 +147,26 @@ h2 {
     font-size: 40px;
 }
 
-li {
-    list-style-image: url("/images/rocket.png");
+ul{
+    position: center;
+    width: 450px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background:rgba(77, 19, 209, .2)
+}
+
+ul li{
+    display: flex;
+    background:rgba(77, 19, 209, .6);
+    padding: 10px 20px;
+    color: #fff;
+    margin: 5px 0;
+    transition: .5s
+}
+
+ul li:hover
+{
+    transform: scale(1.06);
+    background: rgba(192, 192, 192, 0.5);
 }
